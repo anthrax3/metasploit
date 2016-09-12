@@ -7,7 +7,7 @@
 		remote="origin"
 		sync-j="4" />
 
-	<project remote="origin" path="metasploit" name="metasploit" />
+	<project remote="origin" path="metasploit-framework" name="metasploit-framework" />
 	<project remote="origin" path="metasploit-model" name="metasploit-model" />
 	<project remote="origin" path="metasploit-concern" name="metasploit-concern" />
 	<project remote="origin" path="metasploit_data_models" name="metasploit_data_models" />
