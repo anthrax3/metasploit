@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote  name="origin"
+		fetch="ssh://git@github.com/rapid7/" />
+	<default revision="master"
+		remote="origin"
+		sync-j="4" />
+
+	<project remote="origin" path="metasploit" name="metasploit" />
+	<project remote="origin" path="metasploit-model" name="metasploit-model" />
+	<project remote="origin" path="metasploit-concern" name="metasploit-concern" />
+	<project remote="origin" path="metasploit_data_models" name="metasploit_data_models" />
+	<project remote="origin" path="metasploit-payloads" name="metasploit-payloads" />
+	<project remote="origin" path="mettle" name="mettle" />
+
+	<project remote="origin" path="rex" name="rex" />
+	<project remote="origin" path="rex-rop_builder" name="rex-rop_builder" />
+	<project remote="origin" path="rex-text" name="rex-text" />
+	<project remote="origin" path="rex-nop" name="rex-nop" />
+	<project remote="origin" path="rex-mime" name="rex-mime" />
+	<project remote="origin" path="rex-sslscan" name="rex-sslscan" />
+	<project remote="origin" path="rex-socket" name="rex-socket" />
+	<project remote="origin" path="rex-core" name="rex-core" />
+	<project remote="origin" path="rex-powershell" name="rex-powershell" />
+	<project remote="origin" path="rex-bin_tools" name="rex-bin_tools" />
+	<project remote="origin" path="rex-ole" name="rex-ole" />
+	<project remote="origin" path="rex-arch" name="rex-arch" />
+	<project remote="origin" path="rex-struct2" name="rex-struct2" />
+	<project remote="origin" path="rex-registry" name="rex-registry" />
+	<project remote="origin" path="rex-java" name="rex-java" />
+	<project remote="origin" path="rex-zip" name="rex-zip" />
+	<project remote="origin" path="rex-random_identifier" name="rex-random_identifier" />
+
+</manifest>
